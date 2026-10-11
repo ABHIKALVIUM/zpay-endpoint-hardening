@@ -1,0 +1,16 @@
+{
+  "name": "zpay-endpoint-hardening",
+  "version": "1.0.0",
+  "description": "ZPay Payment API Endpoint Hardening",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
